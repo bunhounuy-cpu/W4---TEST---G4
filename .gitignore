@@ -1,0 +1,29 @@
+# https://github.com/github/gitignore/blob/main/Dart.gitignore
+
+# Files and directories created by pub
+.dart_tool/
+.packages
+.pub/
+build/
+
+# If you're building a library package, you should add pubspec.lock to your .gitignore.
+# If you're building an application, you should check pubspec.lock into source control.
+# pubspec.lock
+
+# Directory created by dartdoc
+doc/api/
+
+# Generated JavaScript and analysis files if you compile for web
+*.dart.js
+*.info.json
+*.js
+*.js_
+*.js.deps
+*.js.map
+
+# Common IDE and text editor files
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
